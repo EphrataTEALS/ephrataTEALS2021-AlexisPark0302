@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 
@@ -10,20 +9,16 @@ public class Problem2 {
         int x = console.nextInt();
         
         int b = 5;
+        b= b -x;
 
         if (x % 3 <= 0) {
-            b -= x;
             x = b;
         } else if (x % 3 == 1) {
-            b = b - x;
             x = 7;
-        } else if (x % 3 == 2) {
-            b += -x;
+        } else if (x % 3 == 2) { 
             x += 3;
-        } else {
-            b = -100;
-            x = -100;
         }
         System.out.println("The final values are " + b + " and " + x);
+        console.close();
     }
 }

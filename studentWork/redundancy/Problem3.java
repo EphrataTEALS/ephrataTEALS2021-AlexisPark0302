@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 
@@ -15,14 +14,14 @@ public class Problem3 {
         int times = console.nextInt();
         
         if (times == 1) {
-            System.out.print("And how much are you contributing? ");
+            //System.out.print("And how much are you contributing? ");
             int donation = console.nextInt();
             sum = sum + donation;
             count1++;
             total = total + donation;
         }
         if (times == 2) {
-            System.out.print("And how much are you contributing? ");
+           // System.out.print("And how much are you contributing? ");
             int donation = console.nextInt();
             sum = sum + 2 * donation;
             count2++;
@@ -32,5 +31,6 @@ public class Problem3 {
         System.out.println("The final total is " + total);
         System.out.println("The final sum is " + sum);
         System.out.println("The final counts are " + count1 + " 1s and " + count2 + " 2s");
+        console.close();
     }
 }

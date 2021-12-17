@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "studentWork/Labs/EvenOdd",
+        "studentWork/Chapter 1/studentWork/Chapter1/studentWork/Chapter1",
+        "studentWork/Chapter 1",
+        "sampleCode/Chapter 1/Temperature/Temperature/Chapter1Tempurature",
+        "Labs/ FightOn/labs/FightOn",
+        "studentWork/HotCold",
+        "."
+    ]
+}
